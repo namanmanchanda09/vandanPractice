@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+/*    background-color: dodgerblue;*/
+    margin: 0px;
+}
+.navbar{
+    display: inline-block;
+    background-color: blue;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: right;
+    position: fixed;
+}
+.navbar a{
+    float: right;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 30px;
+    color:aliceblue; 
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar a:hover{
+    font-size: 35px;
+    color: yellow;
+}
+.navbar h1{
+    color: coral;
+    margin-left: 60px;
+    margin-right: 60px;
+ 
+}
+
+.home{ 
+    height: 460px;
+  background: url(5.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.home h1{
+    margin-top: 100px;
+    font-family: sans-serif;
+    color:aqua;
+    }
+.home h1:hover{
+    color: aquamarine;
+}
+.home hr{
+    width: 18%;
+    border: dotted;
+    height: 5px;
+    color: aqua;
+}
+.home h2{
+    color:beige;
+    font-family: sans-serif;
+}
+.van{
+    background-color: cornsilk;
+    height:400px; 
+    
+    }
+.about{
+  background: url(xyz.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 800px
+}
+.about h1{
+    color: darkblue;
+    font-size: 40px;
+}
+.about hr{
+    width: 18%;
+    border: dashed;
+    height: 5px;
+    color: darkblue;
+}
