@@ -1,46 +1,41 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 body{
 /*    background-color: dodgerblue;*/
-    margin: 0px;
+    margin: 0;
 }
-.navbar{
+.nav-bar{
     display: inline-block;
     background-color: blue;
     width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    height: 50px;
+    margin: 0;
     float: right;
     position: fixed;
 }
-.navbar a{
+.nav-bar a{
     float: right;
     text-decoration: none;
-    margin-right: 25px;
     font-size: 30px;
-    color:aliceblue; 
-    margin-left: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    color:aliceblue;
+    margin: 10px 25px;
 }
-.navbar a:hover{
+.nav-bar a:hover{
     font-size: 35px;
     color: yellow;
 }
-.navbar h1{
+.nav-bar h1{
     color: coral;
     margin-left: 60px;
     margin-right: 60px;
  
 }
 
-.home{ 
-    height: 460px;
-  background: url(5.jpg) no-repeat center center fixed; 
+.home{
+    height: 600px;
+  background: url(5.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -55,12 +50,13 @@ body{
 .home h1:hover{
     color: aquamarine;
 }
-.home hr{
-    width: 18%;
-    border: dotted;
-    height: 5px;
-    color: aqua;
-}
+/*.home hr{*/
+    /*width: 18%;*/
+    /*border: dotted;*/
+    /*height: 5px;*/
+    /*color: aqua;*/
+
+/*}*/
 .home h2{
     color:beige;
     font-family: sans-serif;
@@ -76,7 +72,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    height: 800px
+    height: 750px
 }
 .about h1{
     color: darkblue;
